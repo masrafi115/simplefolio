@@ -4,6 +4,7 @@ env:
   GITHUB_USERNAME: ${{ github.repository_owner }}
   REACT_APP_GITHUB_TOKEN: ${{ secrets.token }} # This is automatically set by Github Actions
   USE_GITHUB_DATA: "true"
+  PUBLIC_URL: .
 on:
   workflow_dispatch:
   push:
